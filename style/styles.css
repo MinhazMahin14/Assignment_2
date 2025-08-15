@@ -113,3 +113,17 @@ nav div{
     padding: 10px;
     width: 270px;
 }
+
+/* Flower & Plants Lover */
+
+.flower-plant-container
+{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.trust-badges
+{
+    width: 286px;
+    margin-left: -200px;
+    margin-bottom: 450px;
+}
