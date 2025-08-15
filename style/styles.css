@@ -79,3 +79,37 @@ nav div{
     font-size: 2.8rem;
     padding: 1rem;
 }
+
+.card-container
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.card-container div
+{
+    margin-bottom: 20px;
+}
+
+.card-container h4, h5
+{
+    font-size: 1rem;
+    padding: 5px;
+    text-align: center;
+}
+
+.card-container h4
+{
+    font-weight: 700;
+}
+
+.card-container button
+{
+    background-color: #E95A08;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 270px;
+}
