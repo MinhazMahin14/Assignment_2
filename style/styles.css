@@ -107,6 +107,7 @@ h5 {
 .flower-plant-container {
     max-width: 1140px;
     margin: 0 auto;
+    margin-bottom: 120px;
 }
 
 .trust-badges img
@@ -130,3 +131,64 @@ h5 {
 {
     color: rgba(0, 0, 0, 0.5);
 }
+
+/* Latest Deals */
+
+.deals-container
+{
+    max-width: 1140px;
+    margin: 0 auto;
+    gap: 38px;
+    margin-bottom: 120px;
+}
+.double-img div
+{
+    padding-bottom: 25px;
+}
+.deals-container img
+{
+    border-radius: 20px;
+    filter: brightness(60%);
+}
+
+.image-container {
+  position: relative;
+  text-align: center;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+.text-overlay h2 {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.text-overlay .button {
+  display: inline-block;
+  color: white;
+}
+
+.zabo-text h2
+{
+    font-size: 2rem;
+}
+
+.zabo-btn
+{
+    font-size: 1.5rem;
+}
+
+/* Subscribe */
