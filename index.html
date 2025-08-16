@@ -5,10 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment_2</title>
+    <script src="https://kit.fontawesome.com/ed4b4807d2.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style/styles.css">
 </head>
 
-<body class="font">
+<body id="home" class="font">
     <header>
         <!-- navbar -->
         <nav>
@@ -19,10 +20,11 @@
 
                 <div class="navbar">
                     <ol>
-                        <ul class="text-light-gray"><a href="">Home</a>
-                            <a href="">Shop</a>
-                            <a href="">About Us</a>
-                            <a href="">Cart</a>
+                        <ul class="text-light-gray">
+                            <a href="#home">Home</a>
+                            <a href="#shop">Shop</a>
+                            <a href="#about">About Us</a>
+                            <a style="color: black;" href=""><i class="fa-solid fa-cart-shopping"></i> Cart($99)</a>
                         </ul>
                     </ol>
                 </div>
@@ -35,7 +37,7 @@
 
         <!-- ALWAYS FRESH FLOWERS-->
 
-        <section>
+        <section class="flowers-container">
             <div class="flex fresh-flowers-container">
                 <div>
                     <h1 class="header-title">ALWAYS <span id="fresh-flowers">FRESH</span> <br> <span
@@ -55,7 +57,7 @@
 
         <!-- Our Plants -->
 
-        <section>
+        <section id="shop">
             <div class="our-plants">
                 <div>
                     <h3 class="title"><span id="fresh-flowers">Our</span> Plants</h3>
@@ -120,7 +122,7 @@
 
         <!-- Flower & Plants Lover -->
 
-        <section>
+        <section id="about">
             <div class="flex flower-plant-container">
                 <div>
                     <img src="images/flower-store.png" alt="">
@@ -199,7 +201,47 @@
     </main>
 
     <footer>
-
+        <!-- Footer -->
+        <section>
+            <div class="footer-container">
+                <div>
+                    <img src="images/logo.png" alt="">
+                    <p class="header-description">Indulge your senses with the beauty and fragrance of our fresh flower
+                        shop. </p>
+                </div>
+                <div>
+                    <ol>
+                        <ul class="footer-ul">
+                            <a href="">Home</a>
+                            <a href="">About Us</a>
+                            <a href="">Blog</a>
+                            <a href="">FAQ</a>
+                            <a href="">Contact Us</a>
+                        </ul>
+                    </ol>
+                </div>
+                <div>
+                    <ol>
+                        <ul class="footer-ul">
+                            <a href="">Features</a>
+                            <a href="">Pricing</a>
+                            <a href="">Privacy Policy</a>
+                            <a href="">Terms of Service</a>
+                            <a href="">Help Center</a>
+                        </ul>
+                    </ol>
+                </div>
+                <div class="footer-icon">
+                    <a href="">
+                        <img src="images/icon-linkedin.png" alt="">
+                        <img src="images/icon-twitter.png" alt="">
+                        <img src="images/icon-facebook.png" alt="">
+                        <img src="images/icon-youtube.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- Footer -->
     </footer>
 </body>
 
