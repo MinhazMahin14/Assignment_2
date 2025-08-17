@@ -1,248 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment_2</title>
-    <script src="https://kit.fontawesome.com/ed4b4807d2.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flower Shop</title>
+  <script src="https://kit.fontawesome.com/ed4b4807d2.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
 </head>
+<body class="font" id="home">
 
-<body id="home" class="font">
-    <header>
-        <!-- navbar -->
-        <nav>
-            <div class="flex header-n">
-                <div>
-                    <img src="images/logo.png" alt="">
-                </div>
+  <!-- Header -->
+  <header>
+    <nav class="nav-container">
+      <div class="logo">
+        <img src="images/logo.png" alt="Logo">
+      </div>
+      <div class="navbar">
+        <a href="#home">Home</a>
+        <a href="#shop">Shop</a>
+        <a href="#about">About Us</a>
+        <a href="#"><i class="fa-solid fa-cart-shopping"></i> Cart ($99)</a>
+      </div>
+    </nav>
+  </header>
 
-                <div class="navbar">
-                    <ol>
-                        <ul class="text-light-gray">
-                            <a href="#home">Home</a>
-                            <a href="#shop">Shop</a>
-                            <a href="#about">About Us</a>
-                            <a style="color: black;" href=""><i class="fa-solid fa-cart-shopping"></i> Cart($99)</a>
-                        </ul>
-                    </ol>
-                </div>
-            </div>
-        </nav>
-        <!-- navbar -->
-    </header>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1 class="header-title">ALWAYS <span class="highlight">FRESH</span> <br><span class="highlight">FLOWERS</span></h1>
+      <p class="header-description">
+        Indulge your senses with the beauty and fragrance of our fresh flower shop. 
+        From classic roses to exotic blooms, we offer a wide variety of fresh flowers 
+        perfect for any occasion.
+      </p>
+    </div>
+    <div class="hero-img">
+      <img src="images/hero-flower.png" alt="Flowers">
+    </div>
+  </section>
 
-    <main>
+  <!-- Our Plants -->
+  <section id="shop" class="section-center">
+    <h2 class="title"><span class="highlight">Our</span> Plants</h2>
+    <p class="header-description">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a variety of fresh.</p>
 
-        <!-- ALWAYS FRESH FLOWERS-->
+    <div class="card-container">
+      <div class="card">
+        <img src="images/sample-flower-image.png" alt="">
+        <h5>Lily Blossom</h5>
+        <h4>20 USD</h4>
+        <button>Add to Cart</button>
+      </div>
+      <div class="card">
+        <img src="images/sample-flower-image.png" alt="">
+        <h5>Lily Blossom</h5>
+        <h4>20 USD</h4>
+        <button>Add to Cart</button>
+      </div>
+      <div class="card">
+        <img src="images/sample-flower-image.png" alt="">
+        <h5>Lily Blossom</h5>
+        <h4>20 USD</h4>
+        <button>Add to Cart</button>
+      </div>
+      <div class="card">
+        <img src="images/sample-flower-image.png" alt="">
+        <h5>Lily Blossom</h5>
+        <h4>20 USD</h4>
+        <button>Add to Cart</button>
+      </div>
+      <div class="card">
+        <img src="images/sample-flower-image.png" alt="">
+        <h5>Lily Blossom</h5>
+        <h4>20 USD</h4>
+        <button>Add to Cart</button>
+      </div>
+      <div class="card">
+        <img src="images/sample-flower-image.png" alt="">
+        <h5>Lily Blossom</h5>
+        <h4>20 USD</h4>
+        <button>Add to Cart</button>
+      </div>
+      <div class="card">
+        <img src="images/sample-flower-image.png" alt="">
+        <h5>Lily Blossom</h5>
+        <h4>20 USD</h4>
+        <button>Add to Cart</button>
+      </div>
+      <div class="card">
+        <img src="images/sample-flower-image.png" alt="">
+        <h5>Lily Blossom</h5>
+        <h4>20 USD</h4>
+        <button>Add to Cart</button>
+      </div>
+    </div>
+  </section>
 
-        <section class="flowers-container">
-            <div class="flex fresh-flowers-container">
-                <div>
-                    <h1 class="header-title">ALWAYS <span id="fresh-flowers">FRESH</span> <br> <span
-                            id="fresh-flowers">FLOWERS</span></h1>
-                    <p class="header-description">Indulge your senses with the beauty and fragrance <br>of our fresh
-                        flower shop. From classic roses to <br>exotic blooms, we offer a wide variety of fresh flowers
-                        <br>that are perfect for any occasion.
-                    </p>
-                </div>
-                <div>
-                    <img src="images/hero-flower.png" alt="">
-                </div>
-            </div>
-        </section>
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="about-img">
+      <img src="images/flower-store.png" alt="">
+    </div>
+    <div class="about-text">
+      <img class="badge" src="images/trusted-badge.png" alt="">
+      <h3 class="header-title">Flower & Plants Lover</h3>
+      <ul class="flower-description">
+        <li>Indulge your senses with the beauty and fragrance of our fresh flower shop.</li>
+        <li>From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
+        <li>Perfect flowers for every occasion with guaranteed freshness.</li>
+      </ul>
+    </div>
+  </section>
 
-        <!-- ALWAYS FRESH FLOWERS-->
+  <!-- Deals Section -->
+  <section class="section-center">
+    <h2 class="title"><span class="highlight">Latest</span> Deals</h2>
+    <p class="header-description">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a variety of fresh.</p>
 
-        <!-- Our Plants -->
-
-        <section id="shop">
-            <div class="our-plants">
-                <div>
-                    <h3 class="title"><span id="fresh-flowers">Our</span> Plants</h3>
-                    <p class="our-description header-description">Indulge your senses with the beauty and fragrance of
-                        our fresh flower shop. From <br>classic roses to exotic blooms, we offer a variety of fresh.</p>
-                </div>
-            </div>
-
-            <div class="card-container">
-                <div>
-                    <img src="images/sample-flower-image.png" alt="">
-                    <h5>Lily Blossom</h5>
-                    <h4>20 USD</h4>
-                    <button type="submit">ADD TO CART</button>
-                </div>
-                <div>
-                    <img src="images/sample-flower-image.png" alt="">
-                    <h5>Lily Blossom</h5>
-                    <h4>20 USD</h4>
-                    <button type="submit">ADD TO CART</button>
-                </div>
-                <div>
-                    <img src="images/sample-flower-image.png" alt="">
-                    <h5>Lily Blossom</h5>
-                    <h4>20 USD</h4>
-                    <button type="submit">ADD TO CART</button>
-                </div>
-                <div>
-                    <img src="images/sample-flower-image.png" alt="">
-                    <h5>Lily Blossom</h5>
-                    <h4>20 USD</h4>
-                    <button type="submit">ADD TO CART</button>
-                </div>
-                <div>
-                    <img src="images/sample-flower-image.png" alt="">
-                    <h5>Lily Blossom</h5>
-                    <h4>20 USD</h4>
-                    <button type="submit">ADD TO CART</button>
-                </div>
-                <div>
-                    <img src="images/sample-flower-image.png" alt="">
-                    <h5>Lily Blossom</h5>
-                    <h4>20 USD</h4>
-                    <button type="submit">ADD TO CART</button>
-                </div>
-                <div>
-                    <img src="images/sample-flower-image.png" alt="">
-                    <h5>Lily Blossom</h5>
-                    <h4>20 USD</h4>
-                    <button type="submit">ADD TO CART</button>
-                </div>
-                <div>
-                    <img src="images/sample-flower-image.png" alt="">
-                    <h5>Lily Blossom</h5>
-                    <h4>20 USD</h4>
-                    <button type="submit">ADD TO CART</button>
-                </div>
-            </div>
-        </section>
-
-        <!-- Our Plants -->
-
-        <!-- Flower & Plants Lover -->
-
-        <section id="about">
-            <div class="flex flower-plant-container">
-                <div>
-                    <img src="images/flower-store.png" alt="">
-                </div>
-                <div class="trust-badges">
-                    <img src="images/trusted-badge.png" alt="">
-                </div>
-                <div class="trusted-text">
-                    <h3 class="header-title">Flower & Plants Lover</h3>
-                    <ul class="flower-description">
-                        <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic
-                            roses to exotic blooms, we offer a wide variety of fresh.</li>
-                        <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic
-                            roses to exotic blooms, we offer a wide variety of fresh.</li>
-                        <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic
-                            roses to exotic blooms, we offer a wide variety of fresh.</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
-        <!-- Flower & Plants Lover -->
-
-        <!-- Latest  Deals -->
-
-        <div class="our-plants">
-            <div>
-                <h3 class="title"><span id="fresh-flowers">Latest </span> Deals</h3>
-                <p class="our-description header-description">Indulge your senses with the beauty and fragrance of our
-                    fresh flower shop. From <br>classic roses to exotic blooms, we offer a variety of fresh.</p>
-            </div>
+    <div class="deals">
+      <div class="deal-box">
+        <img src="images/deal-bloom.png" alt="">
+        <div class="overlay">
+          <h2>60% Off | Bloom Plant</h2>
+          <a href="#" class="button">Shop Now</a>
         </div>
-
-        <section>
-            <div class="flex deals-container">
-                <div class="double-img">
-                    <div class="image-container">
-                        <img src="images/deal-bloom.png" alt="bloom">
-                        <div class="text-overlay">
-                            <h2>60% Off | Bloom Plant</h2>
-                            <a href="#" class="button">Shop Now</a>
-                        </div>
-                    </div>
-                    <div class="image-container">
-                        <img src="images/deal-ana.png" alt="ana">
-                        <div class="text-overlay">
-                            <h2>30% Off | Ana Plant</h2>
-                            <a href="#" class="button">Shop Now</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="image-container">
-                    <img src="images/deal-zabo.png" alt="zabo">
-                    <div class="text-overlay zabo-text">
-                        <h2>25% Off | Zabo Plant</h2>
-                        <a href="#" class="button zabo-btn">Shop Now</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Latest  Deals -->
-
-        <!-- Subscribe -->
-        <div class="Subscribe-container">
-            <div>
-                <h3 class="sub-header">Join the colorful Bunch</h3>
-                <div>
-                    <input class="email" type="email" name="" id="" placeholder="Write email">
-                    <button class="sub-btn" type="submit">Subscribe</button>
-                </div>
-            </div>
+      </div>
+      <div class="deal-box">
+        <img src="images/deal-ana.png" alt="">
+        <div class="overlay">
+          <h2>30% Off | Ana Plant</h2>
+          <a href="#" class="button">Shop Now</a>
         </div>
+      </div>
+      <div class="deal-box">
+        <img src="images/deal-zabo.png" alt="">
+        <div class="overlay">
+          <h2>25% Off | Zabo Plant</h2>
+          <a href="#" class="button">Shop Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
 
-        <!-- Subscribe -->
+  <!-- Subscribe -->
+  <section class="subscribe">
+    <h3 class="sub-header">Join the Colorful Bunch</h3>
+    <div class="subscribe-box">
+      <input type="email" placeholder="Write email" class="email">
+      <button class="sub-btn">Subscribe</button>
+    </div>
+  </section>
 
-    </main>
-
-    <footer>
-        <!-- Footer -->
-        <section>
-            <div class="footer-container">
-                <div>
-                    <img src="images/logo.png" alt="">
-                    <p class="header-description">Indulge your senses with the beauty and fragrance of our fresh flower
-                        shop. </p>
-                </div>
-                <div>
-                    <ol>
-                        <ul class="footer-ul">
-                            <a href="">Home</a>
-                            <a href="">About Us</a>
-                            <a href="">Blog</a>
-                            <a href="">FAQ</a>
-                            <a href="">Contact Us</a>
-                        </ul>
-                    </ol>
-                </div>
-                <div>
-                    <ol>
-                        <ul class="footer-ul">
-                            <a href="">Features</a>
-                            <a href="">Pricing</a>
-                            <a href="">Privacy Policy</a>
-                            <a href="">Terms of Service</a>
-                            <a href="">Help Center</a>
-                        </ul>
-                    </ol>
-                </div>
-                <div class="footer-icon">
-                    <a href="">
-                        <img src="images/icon-linkedin.png" alt="">
-                        <img src="images/icon-twitter.png" alt="">
-                        <img src="images/icon-facebook.png" alt="">
-                        <img src="images/icon-youtube.png" alt="">
-                    </a>
-                </div>
-            </div>
-        </section>
-        <!-- Footer -->
-    </footer>
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <div>
+        <img src="images/logo.png" alt="Logo">
+        <p class="header-description">Indulge your senses with the beauty and fragrance of our fresh flower shop.</p>
+      </div>
+      <div>
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Blog</a>
+        <a href="#">FAQ</a>
+        <a href="#">Contact Us</a>
+      </div>
+      <div>
+        <a href="#">Features</a>
+        <a href="#">Pricing</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Help Center</a>
+      </div>
+      <div class="footer-icons">
+        <img src="images/icon-linkedin.png" alt="">
+        <img src="images/icon-twitter.png" alt="">
+        <img src="images/icon-facebook.png" alt="">
+        <img src="images/icon-youtube.png" alt="">
+      </div>
+    </div>
+  </footer>
 </body>
-
 </html>
